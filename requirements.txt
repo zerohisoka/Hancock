@@ -1,6 +1,8 @@
 future
 emoji
 lxml
+libxml2-dev
+libxslt-dev
 wget
 gtts
 beautifulsoup4
@@ -19,6 +21,7 @@ ffmpeg-python
 spongemock
 zalgo-text
 geopy
+
 nltk
 psutil
 aiohttp
