@@ -2,9 +2,6 @@ future
 emoji
 lxml
 wget
-libxslt
-
-libxml2
 gtts
 beautifulsoup4
 requests
