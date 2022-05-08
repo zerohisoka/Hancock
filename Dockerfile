@@ -5,9 +5,7 @@ WORKDIR /SiestaRobot/
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get -y install git
-RUN apt-get -y install libxml2-dev libxslt-dev 
-RUN python -m pip install -U pip
-
+RUN python3.9 -m pip install -U pip
 RUN apt-get install -y wget python3-pip curl bash neofetch ffmpeg software-properties-common
 
 COPY requirements.txt .
