@@ -1,8 +1,9 @@
 future
 emoji
-lxml
 libxml2-dev
-libxslt-dev
+lxml
+
+
 wget
 gtts
 beautifulsoup4
