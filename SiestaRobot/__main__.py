@@ -226,17 +226,18 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text(
-            text=gs(chat.id, "group_start_text").format(
+        update.effective_message.reply_photo(
+            random.choice(MIKU_IMG),
+            caption=gs(chat.id, "group_start_text").format(
                 escape_markdown(uptime),
                 ),
 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                "𝐌𝐲 𝐃𝐚𝐫𝐥𝐢𝐧𝐠 💕💖", url=f"https://t.me//zero-hisoka"),
+                                "𝐌𝐲 𝐃𝐚𝐫𝐥𝐢𝐧𝐠 💕💖", url=f"https://t.me//violaislove"),
                             InlineKeyboardButton(
-                                "•𝙰𝙷𝙹𝙸𝙽•", url=f"https://t.me/ahjinwoo_network")
+                                "•𝙰𝙷𝙹𝙸𝙽•", url=f"https://t.me/ahjinXnetwork")
                 
                         ],
                     ]
@@ -578,8 +579,9 @@ def get_help(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
             )
             return
-        update.effective_message.reply_text(
-            text=gs(chat.id, "group_help_text"),
+        update.effective_message.reply_photo(
+            random.choice(MIKU_IMG),
+            caption=gs(chat.id, "group_help_text"),
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
