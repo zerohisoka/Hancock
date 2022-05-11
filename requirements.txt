@@ -69,6 +69,7 @@ search_engine_parser
 pytz
 jikanpy
 tswift
+NumPy==1.21.2
 python-arq
 envparse
 #profanity (Credits to Julia)
