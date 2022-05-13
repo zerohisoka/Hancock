@@ -93,7 +93,7 @@ pyYAML>=5.1.2
 hentai --only-binary all
 natsort
 html-telegraph-poster
-NHentai-API
+
 
 
 
