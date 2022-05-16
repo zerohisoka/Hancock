@@ -28,7 +28,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     ERROR_LOGS = (
         -1001584010815
-    )  # Prints information Error
+    )  # Prints information
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://hfeghllh:OoP8hLLxM_Yl8EGtoPeztgcxK7LVlBEf@rosie.db.elephantsql.com/hfeghllh"  # needed for any database modules
