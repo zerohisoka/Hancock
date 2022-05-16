@@ -185,6 +185,7 @@ else:
     BAN_STICKER = Config.BAN_STICKER
     ALLOW_EXCL = Config.ALLOW_EXCL
     CASH_API_KEY = Config.CASH_API_KEY
+    ARQ_API = Config.ARQ_API_KEY
     TIME_API_KEY = Config.TIME_API_KEY
     AI_API_KEY = Config.AI_API_KEY
     WALL_API = Config.WALL_API
