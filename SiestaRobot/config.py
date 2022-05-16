@@ -39,8 +39,8 @@ class Config(object):
     URL = None
     SPAMWATCH_API = "rwpX4ZWSRskPCsV1T8Of5UR52gBaordP_yQgCR9su5eoMLEG1Z26SpChVC5oT6zd"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-    ARQ_API_KEY = "UMUZRA-CNGIAS-VOJARV-NJMWUL-ARQ"
-    ARQ_API_URL = "UMUZRA-CNGIAS-VOJARV-NJMWUL-ARQ"
+    ARQ_API_KEY = "KSAATU-JYMCGO-WJXIDA-SEJRNU-ARQ"
+    ARQ_API_URL = "https://arq.hamker.in"
     SESSION_STRING = "1BVtsOIcBu4rAAMlX9K2utAT56NiZmxk1IF4JtjcChNNfbKtwitloSF6I1cvuKrX9zfv5fvgqpIWloZkPJiNxRB37mQqXLlCw8rccjBfJSqxxoUfeVC1Kv-XiAUh-5bc6fOaBO8YM1cev4YtSzfYZW1HlvGs_MifkcOHp8zkEDB0N726e_aWFghOjqkhejKRWCd5DLUML-Vw61mQm0MsyrypCgzoEwF2TECzeAqMIAtcdHJCII5m-iOuhYZ3C6JOrvUNrAq5ZhIUxmm7LsvKXsROR2wbG1657-nDbq1n_swTRoNkke0ct4h9z6_9N5nxr-nfigFOx4-HrkqSSJ9ypMeuSzkHXxbE="
     STRING_SESSION = "1BVtsOIcBu4rAAMlX9K2utAT56NiZmxk1IF4JtjcChNNfbKtwitloSF6I1cvuKrX9zfv5fvgqpIWloZkPJiNxRB37mQqXLlCw8rccjBfJSqxxoUfeVC1Kv-XiAUh-5bc6fOaBO8YM1cev4YtSzfYZW1HlvGs_MifkcOHp8zkEDB0N726e_aWFghOjqkhejKRWCd5DLUML-Vw61mQm0MsyrypCgzoEwF2TECzeAqMIAtcdHJCII5m-iOuhYZ3C6JOrvUNrAq5ZhIUxmm7LsvKXsROR2wbG1657-nDbq1n_swTRoNkke0ct4h9z6_9N5nxr-nfigFOx4-HrkqSSJ9ypMeuSzkHXxbE="
     # OPTIONAL
