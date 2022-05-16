@@ -40,6 +40,7 @@ class Config(object):
     SPAMWATCH_API = "rwpX4ZWSRskPCsV1T8Of5UR52gBaordP_yQgCR9su5eoMLEG1Z26SpChVC5oT6zd"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
     ARQ_API_KEY = "UMUZRA-CNGIAS-VOJARV-NJMWUL-ARQ"
+    ARQ_API_URL = "UMUZRA-CNGIAS-VOJARV-NJMWUL-ARQ"
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
