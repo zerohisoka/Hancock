@@ -17,21 +17,21 @@ class Config(object):
     API_ID = 8714251  # integer value, dont use ""
     API_HASH = "50c97a11b622575c5b9441b1062f601a"
     TOKEN = "5276474965:AAFav-EqWxsQ0XhUI7YcPfHXb1yg-ij4y_A"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 945137470  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "saint_foire"
-    SUPPORT_CHAT = "machinaxsupport"  # Your own group for support, do not add the @
+    OWNER_ID = 5394536520  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "zerohisooka"
+    SUPPORT_CHAT = "BoaHancock_Support"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001180007354
+        -1001584010815
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001237968047
+        -1001584010815
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     ERROR_LOGS = (
-        -1001732618654
+        -1001584010815
     )  # Prints information Error
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://jlkbqemmdneklm:edec2de664bdebc2151475a5dbcfec84ca3865e47a83a0b0bf5a86abee79d76c@ec2-34-224-128-242.compute-1.amazonaws.com:5432/d19dts3f8jjs7a"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
