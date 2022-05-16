@@ -194,6 +194,8 @@ else:
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
     SPAMWATCH_API = Config.SPAMWATCH_API
     INFOPIC = Config.INFOPIC
+    STRING_SESSION = Config.STRING_SESSION
+    SESSION_STRING = Config.SESSION_STRING
 
     try:
         BL_CHATS = {int(x) for x in Config.BL_CHATS or []}
