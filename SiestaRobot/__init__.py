@@ -128,7 +128,6 @@ if ENV:
     ARQ_API_KEY = ARQ_API
     ERROR_LOGS = os.environ.get("ERROR_LOGS")
 
-    ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
     try:
         BL_CHATS = {int(x) for x in os.environ.get("BL_CHATS", "").split()}
